@@ -1,0 +1,31 @@
+<session version="1.1" release="T-2022.06-SP1" timestp="2025-09-30 15:40:48 GMT">
+  <info>
+    <attr name="datetime" value="Tue Sep 30 21:10:48 2025
+"/>
+    <attr name="command" value="urg -dir simv.vdb"/>
+    <attr name="top_instance" value="spi_slave_select_tb"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Line" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Cond" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Toggle" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="FSM" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Branch" type="ratio" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Line" value="112/112" />
+    <metric name="Cond" value="7/7" />
+    <metric name="Toggle" value="146/156" />
+    <metric name="Branch" value="18/18" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+  </scope>
+  <scope type="assert" name="Statistics">
+  </scope>
+  </old_coverage>
+</session>
